@@ -1,0 +1,6 @@
+.bg-title-page {
+  width: auto;
+  height: 660px;
+  background: url("img/Crop.jpg");
+  background-size: cover;
+}

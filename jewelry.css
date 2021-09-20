@@ -1,0 +1,384 @@
+@import 'https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Serif+JP:wght@200&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Lora&family=Nanum+Myeongjo&family=Noto+Serif+JP:wght@200&display=swap';
+@import 'two-images.css';
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  ms-text-size-adjust: 100%;
+  moz-text-size-adjust: 100%;
+  webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*ul li{list-style: none;}*/
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.bg-title-page {
+  width: auto;
+  height: 660px;
+  background: url("img/2001.jpg");
+  background-size: cover;
+}
+
+.restoring-memories {
+  flex-direction: column;
+}
+
+.restoring-memories-title {
+  font-size: 44px;
+  font-family: "Lora", serif;
+  color: white;
+  margin-bottom: 50px;
+  padding-top: 310px;
+  text-align: center;
+  -webkit-text-stroke: 1px #d6d0b0;
+}
+
+.restoring-memories-txt {
+  font-size: 20px;
+  font-family: "Lora", serif;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 80px;
+  -webkit-text-stroke: 1px #d6d0b0;
+}
+
+.bg-repair-and-restoration {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  background-color: #f8f3e6;
+}
+
+.repair-and-restoration-common {
+  width: 550px;
+  height: 500px;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.repair-and-restoration-title {
+  font-family: "Lora", serif;
+  font-size: 44px;
+  width: 550px;
+  padding-top: 80px;
+}
+
+.repair-and-restoration-txt {
+  font-family: "Lora", serif;
+  font-size: 22px;
+  width: 550px;
+  margin-top: 30px;
+}
+
+.dg-img-common {
+  width: 650px;
+  height: 450px;
+  margin-top: 40px;
+  margin-left: 35px;
+}
+
+.bg-collor {
+  width: 620px;
+  height: 400px;
+  background-color: #d6d0b0;
+  z-index: 1;
+  padding: 30px;
+}
+
+.bg-image {
+  width: 620px;
+  height: 394px;
+  background: url("img/2_22.jpg") no-repeat;
+  z-index: 2;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.bg-soldering-work {
+  width: 100%;
+  height: 600px;
+  background-color: #f8f3e6;
+}
+
+.three-blocks-total {
+  height: 450px;
+  width: 1260px;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.soldering-work-block {
+  border: 2px solid;
+  height: 430px;
+  width: 400px;
+  margin-left: 20px;
+}
+
+.soldering-work-title {
+  font-family: "Lora", serif;
+  font-size: 22px;
+  height: 50px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.soldering-work-block-title {
+  font-family: "Lora", serif;
+  font-size: 22px;
+  text-align: center;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.soldering-work-block-txt {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 7px 0px 5px;
+}
+
+.soldering-work-block-img {
+  background: url("img/14_2.jpg");
+  background-size: 100%;
+  width: 350px;
+  height: auto;
+}
+
+.-layer-repair-services {
+  height: 840px;
+  width: 100%;
+  background-color: #d6d0b0;
+  display: flex;
+}
+
+.substrate-repair-services {
+  height: 610px;
+  width: 80%;
+  background-color: #f8f3e6;
+  margin-top: 130px;
+  margin-left: 130px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.substrate-2-repair-services {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-repair-services {
+  font-family: "Lora", serif;
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  margin-top: 45px;
+  font-weight: 600;
+}
+
+.line1--repair-services {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin-top: 42px;
+}
+
+.img1-repair-services {
+  height: 100px;
+  width: 100px;
+  background: url("img/diploma.webp") no-repeat;
+  background-size: 100%;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.title-txt-repair-services {
+  font-family: "Lora", serif;
+  font-size: 26px;
+  height: 100%;
+  margin-left: 60px;
+  font-weight: 600;
+}
+
+.p1 {
+  font-family: "Lora", serif;
+  font-size: 17px;
+  margin-top: 10px;
+  font-weight: 200;
+  margin-right: 50px;
+}
+
+.img2-repair-services {
+  height: 100px;
+  width: 100px;
+  background: url("img/1415.webp") no-repeat;
+  background-size: 100%;
+  margin-left: 110px;
+  cursor: pointer;
+}
+
+.title2-txt-repair-services {
+  font-family: "Lora", serif;
+  font-size: 26px;
+  height: 100%;
+  margin-left: 76px;
+  font-weight: 600;
+}
+
+.img3-repair-services {
+  height: 100px;
+  width: 100px;
+  background: url("img/sms.webp") no-repeat;
+  background-size: 100%;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.bg-footer {
+  width: 100%;
+  height: 380px;
+  background-color: #f8f3e6;
+  position: absolute;
+}
+
+.footer-common {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map {
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+.contact-us-common {
+  height: 250px;
+  width: 400px;
+  margin-top: 70px;
+  margin-right: 70px;
+}
+
+.title-contact-us {
+  font-family: "Lora", serif;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  width: 400px;
+}
+
+.icon-contact-common {
+  height: 55px;
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+
+.icon-facebook {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  background: url("img/facebook_icon.png") no-repeat;
+  background-size: 100%;
+}
+
+.icon-instagram {
+  height: 50px;
+  width: 50px;
+  margin-left: 15px;
+  cursor: pointer;
+  background: url("img/instagram-icon.png") no-repeat;
+  background-size: 100%;
+}
+
+.icon-youtube {
+  height: 50px;
+  width: 50px;
+  margin-left: 15px;
+  cursor: pointer;
+  background: url("img/youtube-icon.png") no-repeat;
+  background-size: 100%;
+}
+
+.icon-twetter {
+  height: 50px;
+  width: 50px;
+  margin-left: 15px;
+  cursor: pointer;
+  background: url("img/twitter-icon.png") no-repeat;
+  background-size: 100%;
+}
+
+.txt-contact-us {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  text-align: center;
+  width: 400px;
+  margin-top: 25px;
+}
+
+p {
+  margin-top: 5px;
+}

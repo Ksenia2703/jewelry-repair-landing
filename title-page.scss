@@ -1,0 +1,33 @@
+
+.bg-title-page {
+	width: auto;
+	height: 660px;
+	background: url('img/2001.jpg');
+	background-size: cover;
+}
+
+.restoring-memories {
+	flex-direction:column;
+}
+
+.restoring-memories-title {
+	font-size: 44px;
+	font-family: 'Lora', serif;
+	color: white;
+	margin-bottom: 50px;
+	padding-top: 310px;
+	text-align: center;
+	-webkit-text-stroke: 1px #d6d0b0;
+}
+
+.restoring-memories-txt {
+	font-size: 20px;
+	font-family: 'Lora', serif;
+	color: white;
+	//width: 700px;
+	text-align: center;
+	line-height: 20px;
+	margin-top: 80px;
+	-webkit-text-stroke: 1px #d6d0b0;
+}
+

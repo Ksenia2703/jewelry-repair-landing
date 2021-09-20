@@ -1,0 +1,93 @@
+
+
+.bg-footer {
+	width: 100%;
+	height: 380px;
+	background-color: #f8f3e6;
+	position: absolute;
+}
+
+.footer-common {
+	display: flex;
+	justify-content: space-between;
+}
+
+.map {
+	margin-top: 70px;
+	margin-left: 70px;
+}
+
+.contact-us-common {
+	height: 250px;
+	width: 400px;
+	//background-color: red;
+	margin-top: 70px;
+	margin-right: 70px;
+
+}
+
+.title-contact-us {
+	font-family: 'Lora', serif;
+	font-size: 26px;
+	font-weight: 600;
+	text-align: center;
+	width: 400px;
+}
+
+.icon-contact-common {
+	height: 55px;
+	width: 400px;
+	//background-color: blue;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 25px;
+
+}
+
+.icon-facebook {
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	background: url('img/facebook_icon.png') no-repeat;
+	background-size: 100%;
+
+}
+
+.icon-instagram {
+	height: 50px;
+	width: 50px;
+	margin-left: 15px;
+	cursor: pointer;
+	background: url('img/instagram-icon.png') no-repeat;
+	background-size: 100%;
+}
+
+.icon-youtube {
+	height: 50px;
+	width: 50px;
+	margin-left: 15px;
+	cursor: pointer;
+	background: url('img/youtube-icon.png') no-repeat;
+	background-size: 100%;
+}
+
+.icon-twetter {
+	height: 50px;
+	width: 50px;
+	margin-left: 15px;
+	cursor: pointer;
+	background: url('img/twitter-icon.png') no-repeat;
+	background-size: 100%;
+}
+
+.txt-contact-us {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	text-align: center;
+	width: 400px;
+	margin-top: 25px;
+}
+
+p {
+	margin-top: 5px;
+}

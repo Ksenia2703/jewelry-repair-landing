@@ -1,0 +1,56 @@
+.bg-soldering-work {
+	width: 100%;
+	height: 600px;
+	background-color: #f8f3e6;
+
+}
+
+.three-blocks-total {
+	height: 450px;
+	width: 1260px;
+	//background-color: red;
+	align-items: center;
+	margin-left: 40px;
+	margin-top: 30px;
+	display: flex;   
+	justify-content: space-around;
+
+}
+
+.soldering-work-block {
+	border: 2px solid;
+	height: 430px;
+	width: 400px;
+	margin-left: 20px;
+}
+
+.soldering-work-title {
+	font-family: 'Lora', serif;
+	font-size: 22px;
+	height: 50px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.soldering-work-block-title {
+	font-family: 'Lora', serif;
+	font-size: 22px;
+	text-align: center;
+	height: 50px;
+	margin-top: 30px;
+}
+
+.soldering-work-block-txt {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	text-align: center;
+	//margin-top: 20px;
+	margin: 20px 7px 0px 5px;
+}
+
+.soldering-work-block-img {
+	background: url('img/14_2.jpg');
+	background-size: 100%;
+	width: 350px;
+	height: auto;
+}
